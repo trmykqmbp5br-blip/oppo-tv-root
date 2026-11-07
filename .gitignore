@@ -1,0 +1,23 @@
+# 二进制产物 / 密钥 / 内核内存镜像：一律不入库
+*.so
+*.apk
+*.jar
+*.dex
+*.odex
+*.vdex
+*.keystore
+*.jks
+*.p12
+*.bin
+*.zip
+*.tar.gz
+*.png
+*.jpg
+*.jpeg
+# 本地环境与中间产物
+.env
+artifacts/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
